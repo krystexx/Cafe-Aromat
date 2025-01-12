@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -39,7 +38,10 @@ section {
 }
 
 h1, h2 {
-    color: #555;
+    color: #111;
+}
+h3{
+    color:#eee 
 }
 
 .image-placeholder {
@@ -70,8 +72,9 @@ h1, h2 {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #111; /* Ciemniejsze tło */
+    color: #eee; /* Jasny tekst dla dobrego kontrastu */
     text-align: center;
     padding: 1rem 0;
 }
+
